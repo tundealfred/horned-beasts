@@ -1,3 +1,3 @@
 export default function () {
-  return <h1>Greatest Horned Beast</h1>;
+  return <h1>Greatest Of All Time</h1>;
 }

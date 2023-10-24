@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+#hornedSection {
+  display: flex;
+}
+
+.hornedCard {
+  padding: 20px;
+}
