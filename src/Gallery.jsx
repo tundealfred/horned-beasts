@@ -1,23 +1,20 @@
 import HornedBeast from "./HornedBeast";
+import data from "./assets/beast-data.json";
 
-export default function () {
+export default function Gallery({ onBeastSelect }) {
   return (
     <div id="hornedSection">
-      <HornedBeast
-        title="Lionel Messi"
-        imageUrl="src/assets/animal1.jpg"
-        desc="Argentina Legend"
-      />
-      <HornedBeast
-        title="Cristino Ronaldo"
-        imageUrl="src/assets/animal2.jpg"
-        desc="Portugal Legend"
-      />
-      <HornedBeast
-        title="Babatunde Alfred"
-        imageUrl="src/assets/animal3.jpg"
-        desc="Football Manager Legend"
-      />
+      {data.map((beast) => {
+        return (
+          <HornedBeast
+            key={beast._id}
+            title={beast.title}
+            imageUrl={beast.imageUrl}
+            desc={beast.desc}
+            onClick={() => onBeastSelect(beast)}
+          />
+        );
+      })}
     </div>
   );
 }

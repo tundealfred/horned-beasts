@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "asdfg",
+    "title": "Lionel Messi",
+    "imageUrl": "src/assets/animal1.jpg",
+    "desc": "Argentina Legend"
+  },
+  {
+    "_id": "asdfh",
+    "title": "Cristiano Ronaldo",
+    "imageUrl": "src/assets/animal2.jpg",
+    "desc": "Portugal Legend"
+  },
+  {
+    "_id": "asdfj",
+    "title": "Babatunde Alfred",
+    "imageUrl": "src/assets/animal3.jpg",
+    "desc": "Football Manager Legend"
+  }
+]
