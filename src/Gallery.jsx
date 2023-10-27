@@ -6,7 +6,7 @@ export default function Gallery({ data, onBeastSelect, onFilterBeast }) {
     <div id="hornedSection">
       <Form>
         <Form.Group controlId="filterByHorns">
-          <Form.Label>Filter by Horns(Balondor):</Form.Label>
+          <Form.Label>Filter by Horns(Balon d'Or):</Form.Label>
           <br></br>
           <Form.Control
             as="select"
