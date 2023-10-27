@@ -12,7 +12,7 @@ export default function HornedBeast({ title, imageUrl, desc, onClick }) {
       <h2>{title}</h2>
       <img src={imageUrl} onClick={onClick} alt={title} />
       <p>{desc}</p>
-      {/* <span>❤️ {likes}</span> */}
+      <span onClick={handleLikes}>❤️ {likes}</span>
     </div>
   );
 }
