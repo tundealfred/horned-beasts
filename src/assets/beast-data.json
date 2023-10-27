@@ -2,21 +2,21 @@
   {
     "_id": "asdfg",
     "title": "Lionel Messi",
-    "imageUrl": "/src/assets/animal1.jpg",
+    "imageUrl": "src/assets/images/animal1.jpg",
     "desc": "Argentina Legend",
     "horns": "8"
   },
   {
     "_id": "asdfh",
     "title": "Cristiano Ronaldo",
-    "imageUrl": "/src/assets/animal2.jpg",
+    "imageUrl": "/src/assets/images/animal2.jpg",
     "desc": "Portugal Legend",
     "horns": "6"
   },
   {
     "_id": "asdfj",
     "title": "Babatunde Alfred",
-    "imageUrl": "/src/assets/animal3.jpg",
+    "imageUrl": "/src/assets/images/animal3.jpg",
     "desc": "Football Manager Legend",
     "horns": "10"
   }
